@@ -41,7 +41,7 @@ const Pastes = () => {
 
 
     return (
-        <div className='w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-0'>
+        <div className='w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-5'>
             <div className='flex flex-col gap-y-3'>
                 <div className='w-full flex gap-10 rounded-[0.3rem] border border-[rgba(128,121,121,0.3)] mt-6 relative'>
                     <input

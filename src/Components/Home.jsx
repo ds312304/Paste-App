@@ -69,7 +69,7 @@ const Home = () => {
     }, [pasteId, allPastes]);
 
     return (
-        <div className="w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-0">
+        <div className="w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-5">
             <div className="flex flex-col gap-y-5 items-start">
                 <div className="w-full flex flex-row gap-x-4 justify-between items-center">
                     <input
@@ -118,7 +118,7 @@ const Home = () => {
                         </button>
                     </div>
                     <textarea
-                        className="bg-white w-full mt-0 min-w-[500px] p-4 focus:outline-none focus:ring-2 focus:ring-blue-700 rounded-sm resize-none"
+                        className="w-full max-w-[100vw] p-4 bg-white resize-none rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-700 overflow-hidden"
                         value={value}
                         placeholder="Write Your Content Here...."
                         onChange={(e) => setValue(e.target.value)}
